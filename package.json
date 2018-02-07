@@ -1,0 +1,33 @@
+{
+  "name": "ville-games",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "browsers": "browserslist",
+    "build": "parcel build src/index.html --public-url ./",
+    "start": "parcel src/index.html --out-dir temp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latenssi/ville-games.git"
+  },
+  "author": "Lauri Junkkari <latenssi@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/latenssi/ville-games/issues"
+  },
+  "homepage": "https://github.com/latenssi/ville-games#readme",
+  "browserslist": "> 1%, last 2 versions, Firefox ESR",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "autoprefixer": "^7.2.5",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
+    "eslint-plugin-compat": "^2.2.0",
+    "jquery": "^3.3.1",
+    "parcel-bundler": "^1.5.1",
+    "postcss": "^6.0.17"
+  }
+}
